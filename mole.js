@@ -20,7 +20,7 @@ function popUpRandomMole() {
   );
   if (moleHeads.length === 0) {
     let el = document.createElement("h1");
-    let div = document.getElementsByClassName("for-h1");
+    let div = document.querySelector(".for-h1");
     el.innerHTML = "You won!";
     div.appendChild(el);
     return;
